@@ -1,0 +1,243 @@
+{
+    "scenario_id": "sheffield_flood_response_(seed=42)",
+    "name": "Sheffield Flood Response (seed=42)",
+    "category": "flood",
+    "ambulances": [
+        {
+            "id": "A1",
+            "lat": 53.395914,
+            "lon": -1.544998,
+            "status": "available"
+        },
+        {
+            "id": "A2",
+            "lat": 53.341254,
+            "lon": -1.505358,
+            "status": "available"
+        },
+        {
+            "id": "A3",
+            "lat": 53.410471,
+            "lon": -1.41466,
+            "status": "available"
+        },
+        {
+            "id": "A4",
+            "lat": 53.433827,
+            "lon": -1.532612,
+            "status": "available"
+        },
+        {
+            "id": "A5",
+            "lat": 53.363288,
+            "lon": -1.544041,
+            "status": "available"
+        },
+        {
+            "id": "A6",
+            "lat": 53.332796,
+            "lon": -1.448929,
+            "status": "available"
+        },
+        {
+            "id": "A7",
+            "lat": 53.30398,
+            "lon": -1.510232,
+            "status": "available"
+        },
+        {
+            "id": "A8",
+            "lat": 53.397483,
+            "lon": -1.441012,
+            "status": "available"
+        },
+        {
+            "id": "A9",
+            "lat": 53.333066,
+            "lon": -1.432147,
+            "status": "available"
+        },
+        {
+            "id": "A10",
+            "lat": 53.421415,
+            "lon": -1.5487,
+            "status": "available"
+        }
+    ],
+    "incidents": [
+        {
+            "id": "I1",
+            "lat": 53.404721,
+            "lon": -1.48195,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I2",
+            "lat": 53.367033,
+            "lon": -1.461185,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I3",
+            "lat": 53.390559,
+            "lon": -1.388574,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I4",
+            "lat": 53.396937,
+            "lon": -1.47147,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I5",
+            "lat": 53.396861,
+            "lon": -1.440317,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I6",
+            "lat": 53.394495,
+            "lon": -1.465924,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I7",
+            "lat": 53.428298,
+            "lon": -1.376703,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I8",
+            "lat": 53.412699,
+            "lon": -1.427755,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I9",
+            "lat": 53.355938,
+            "lon": -1.491796,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I10",
+            "lat": 53.381722,
+            "lon": -1.471403,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I11",
+            "lat": 53.407603,
+            "lon": -1.429822,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I12",
+            "lat": 53.4164,
+            "lon": -1.50419,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I13",
+            "lat": 53.360175,
+            "lon": -1.536762,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I14",
+            "lat": 53.347202,
+            "lon": -1.418912,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I15",
+            "lat": 53.396428,
+            "lon": -1.521426,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I16",
+            "lat": 53.395551,
+            "lon": -1.426058,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I17",
+            "lat": 53.35991,
+            "lon": -1.506136,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I18",
+            "lat": 53.388948,
+            "lon": -1.498909,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I19",
+            "lat": 53.407127,
+            "lon": -1.417435,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I20",
+            "lat": 53.336486,
+            "lon": -1.477289,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        }
+    ],
+    "hospitals": [
+        {
+            "id": "H1",
+            "name": "Northern General Hospital",
+            "lat": 53.4096,
+            "lon": -1.4565,
+            "capacity": 1100,
+            "available_beds": 550
+        },
+        {
+            "id": "H2",
+            "name": "Royal Hallamshire Hospital",
+            "lat": 53.3782,
+            "lon": -1.4883,
+            "capacity": 900,
+            "available_beds": 450
+        },
+        {
+            "id": "H3",
+            "name": "Sheffield Children's Hospital",
+            "lat": 53.3728,
+            "lon": -1.4908,
+            "capacity": 200,
+            "available_beds": 100
+        },
+        {
+            "id": "H4",
+            "name": "Weston Park Hospital",
+            "lat": 53.3778,
+            "lon": -1.4943,
+            "capacity": 72,
+            "available_beds": 36
+        }
+    ]
+}

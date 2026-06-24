@@ -1,0 +1,5 @@
+id,name,lat,lon,capacity,available_beds
+H1,Northern General Hospital,53.4096,-1.4565,1100,595
+H2,Royal Hallamshire Hospital,53.3782,-1.4883,900,475
+H3,Sheffield Children's Hospital,53.3728,-1.4908,200,105
+H4,Weston Park Hospital,53.3778,-1.4943,72,38

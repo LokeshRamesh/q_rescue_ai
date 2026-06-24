@@ -1,0 +1,6 @@
+id,lat,lon,severity_level,severity_weight,category
+I1,53.313041,-1.465616,LOW,25,flood
+I2,53.386218,-1.469118,MEDIUM,50,flood
+I3,53.405199,-1.466096,HIGH,75,flood
+I4,53.388593,-1.477871,HIGH,75,flood
+I5,53.391598,-1.444027,MEDIUM,50,flood

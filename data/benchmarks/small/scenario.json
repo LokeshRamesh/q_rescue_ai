@@ -1,0 +1,96 @@
+{
+    "scenario_id": "sheffield_flood_response_(seed=42)",
+    "name": "Sheffield Flood Response (seed=42)",
+    "category": "flood",
+    "ambulances": [
+        {
+            "id": "A1",
+            "lat": 53.395914,
+            "lon": -1.544998,
+            "status": "available"
+        },
+        {
+            "id": "A2",
+            "lat": 53.341254,
+            "lon": -1.505358,
+            "status": "available"
+        },
+        {
+            "id": "A3",
+            "lat": 53.410471,
+            "lon": -1.41466,
+            "status": "available"
+        }
+    ],
+    "incidents": [
+        {
+            "id": "I1",
+            "lat": 53.313041,
+            "lon": -1.465616,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I2",
+            "lat": 53.386218,
+            "lon": -1.469118,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I3",
+            "lat": 53.405199,
+            "lon": -1.466096,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I4",
+            "lat": 53.388593,
+            "lon": -1.477871,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I5",
+            "lat": 53.391598,
+            "lon": -1.444027,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        }
+    ],
+    "hospitals": [
+        {
+            "id": "H1",
+            "name": "Northern General Hospital",
+            "lat": 53.4096,
+            "lon": -1.4565,
+            "capacity": 1100,
+            "available_beds": 595
+        },
+        {
+            "id": "H2",
+            "name": "Royal Hallamshire Hospital",
+            "lat": 53.3782,
+            "lon": -1.4883,
+            "capacity": 900,
+            "available_beds": 475
+        },
+        {
+            "id": "H3",
+            "name": "Sheffield Children's Hospital",
+            "lat": 53.3728,
+            "lon": -1.4908,
+            "capacity": 200,
+            "available_beds": 105
+        },
+        {
+            "id": "H4",
+            "name": "Weston Park Hospital",
+            "lat": 53.3778,
+            "lon": -1.4943,
+            "capacity": 72,
+            "available_beds": 38
+        }
+    ]
+}

@@ -1,0 +1,863 @@
+{
+    "scenario_id": "sheffield_city-wide_emergency_(seed=42)",
+    "name": "Sheffield City-Wide Emergency (seed=42)",
+    "category": "city_wide_emergency",
+    "ambulances": [
+        {
+            "id": "A1",
+            "lat": 53.395914,
+            "lon": -1.544998,
+            "status": "available"
+        },
+        {
+            "id": "A2",
+            "lat": 53.341254,
+            "lon": -1.505358,
+            "status": "available"
+        },
+        {
+            "id": "A3",
+            "lat": 53.410471,
+            "lon": -1.41466,
+            "status": "available"
+        },
+        {
+            "id": "A4",
+            "lat": 53.433827,
+            "lon": -1.532612,
+            "status": "available"
+        },
+        {
+            "id": "A5",
+            "lat": 53.363288,
+            "lon": -1.544041,
+            "status": "available"
+        },
+        {
+            "id": "A6",
+            "lat": 53.332796,
+            "lon": -1.448929,
+            "status": "available"
+        },
+        {
+            "id": "A7",
+            "lat": 53.30398,
+            "lon": -1.510232,
+            "status": "available"
+        },
+        {
+            "id": "A8",
+            "lat": 53.397483,
+            "lon": -1.441012,
+            "status": "available"
+        },
+        {
+            "id": "A9",
+            "lat": 53.333066,
+            "lon": -1.432147,
+            "status": "available"
+        },
+        {
+            "id": "A10",
+            "lat": 53.421415,
+            "lon": -1.5487,
+            "status": "available"
+        },
+        {
+            "id": "A11",
+            "lat": 53.420873,
+            "lon": -1.410372,
+            "status": "available"
+        },
+        {
+            "id": "A12",
+            "lat": 53.351038,
+            "lon": -1.518904,
+            "status": "available"
+        },
+        {
+            "id": "A13",
+            "lat": 53.443582,
+            "lon": -1.482681,
+            "status": "available"
+        },
+        {
+            "id": "A14",
+            "lat": 53.313912,
+            "lon": -1.530657,
+            "status": "available"
+        },
+        {
+            "id": "A15",
+            "lat": 53.427124,
+            "lon": -1.429255,
+            "status": "available"
+        },
+        {
+            "id": "A16",
+            "lat": 53.421069,
+            "lon": -1.404054,
+            "status": "available"
+        },
+        {
+            "id": "A17",
+            "lat": 53.380434,
+            "lon": -1.355377,
+            "status": "available"
+        },
+        {
+            "id": "A18",
+            "lat": 53.35678,
+            "lon": -1.439592,
+            "status": "available"
+        },
+        {
+            "id": "A19",
+            "lat": 53.424411,
+            "lon": -1.426296,
+            "status": "available"
+        },
+        {
+            "id": "A20",
+            "lat": 53.429256,
+            "lon": -1.43453,
+            "status": "available"
+        }
+    ],
+    "incidents": [
+        {
+            "id": "I1",
+            "lat": 53.405686,
+            "lon": -1.540835,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I2",
+            "lat": 53.41596,
+            "lon": -1.352956,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I3",
+            "lat": 53.429973,
+            "lon": -1.473975,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I4",
+            "lat": 53.395353,
+            "lon": -1.477034,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I5",
+            "lat": 53.353291,
+            "lon": -1.415965,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I6",
+            "lat": 53.39137,
+            "lon": -1.515772,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I7",
+            "lat": 53.32451,
+            "lon": -1.474109,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I8",
+            "lat": 53.402692,
+            "lon": -1.38143,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I9",
+            "lat": 53.334357,
+            "lon": -1.54358,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I10",
+            "lat": 53.360175,
+            "lon": -1.536762,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I11",
+            "lat": 53.331894,
+            "lon": -1.450154,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I12",
+            "lat": 53.321431,
+            "lon": -1.522074,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I13",
+            "lat": 53.412052,
+            "lon": -1.464313,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I14",
+            "lat": 53.354299,
+            "lon": -1.350535,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I15",
+            "lat": 53.376429,
+            "lon": -1.531818,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I16",
+            "lat": 53.429165,
+            "lon": -1.519432,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I17",
+            "lat": 53.418812,
+            "lon": -1.465568,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I18",
+            "lat": 53.357715,
+            "lon": -1.430822,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I19",
+            "lat": 53.379367,
+            "lon": -1.355784,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I20",
+            "lat": 53.402043,
+            "lon": -1.52709,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I21",
+            "lat": 53.41529,
+            "lon": -1.481965,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I22",
+            "lat": 53.365215,
+            "lon": -1.459255,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I23",
+            "lat": 53.445783,
+            "lon": -1.397608,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I24",
+            "lat": 53.430578,
+            "lon": -1.490311,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I25",
+            "lat": 53.322926,
+            "lon": -1.397498,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I26",
+            "lat": 53.389842,
+            "lon": -1.452279,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I27",
+            "lat": 53.439365,
+            "lon": -1.374256,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I28",
+            "lat": 53.335918,
+            "lon": -1.501826,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I29",
+            "lat": 53.312848,
+            "lon": -1.452802,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I30",
+            "lat": 53.446698,
+            "lon": -1.443459,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I31",
+            "lat": 53.319259,
+            "lon": -1.454944,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I32",
+            "lat": 53.339758,
+            "lon": -1.375513,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I33",
+            "lat": 53.444654,
+            "lon": -1.364217,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I34",
+            "lat": 53.406942,
+            "lon": -1.470202,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I35",
+            "lat": 53.365715,
+            "lon": -1.446485,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I36",
+            "lat": 53.337186,
+            "lon": -1.537195,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I37",
+            "lat": 53.388246,
+            "lon": -1.503977,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I38",
+            "lat": 53.301079,
+            "lon": -1.408432,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I39",
+            "lat": 53.334341,
+            "lon": -1.368916,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I40",
+            "lat": 53.310629,
+            "lon": -1.502399,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I41",
+            "lat": 53.332136,
+            "lon": -1.523538,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I42",
+            "lat": 53.33645,
+            "lon": -1.455405,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I43",
+            "lat": 53.328561,
+            "lon": -1.530614,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I44",
+            "lat": 53.353145,
+            "lon": -1.46778,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I45",
+            "lat": 53.401005,
+            "lon": -1.353167,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I46",
+            "lat": 53.309092,
+            "lon": -1.404357,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I47",
+            "lat": 53.337298,
+            "lon": -1.511958,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I48",
+            "lat": 53.321027,
+            "lon": -1.513302,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I49",
+            "lat": 53.337471,
+            "lon": -1.365347,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I50",
+            "lat": 53.421203,
+            "lon": -1.378807,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I51",
+            "lat": 53.307588,
+            "lon": -1.350144,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I52",
+            "lat": 53.445349,
+            "lon": -1.364727,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I53",
+            "lat": 53.324947,
+            "lon": -1.452872,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I54",
+            "lat": 53.429698,
+            "lon": -1.369511,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I55",
+            "lat": 53.356846,
+            "lon": -1.352938,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I56",
+            "lat": 53.438978,
+            "lon": -1.392974,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I57",
+            "lat": 53.363451,
+            "lon": -1.358536,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I58",
+            "lat": 53.32322,
+            "lon": -1.490658,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I59",
+            "lat": 53.386877,
+            "lon": -1.441561,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I60",
+            "lat": 53.308575,
+            "lon": -1.433164,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I61",
+            "lat": 53.308532,
+            "lon": -1.448434,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I62",
+            "lat": 53.310278,
+            "lon": -1.536408,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I63",
+            "lat": 53.360566,
+            "lon": -1.361681,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I64",
+            "lat": 53.386838,
+            "lon": -1.542052,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I65",
+            "lat": 53.362884,
+            "lon": -1.433266,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I66",
+            "lat": 53.440206,
+            "lon": -1.509148,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I67",
+            "lat": 53.335803,
+            "lon": -1.470843,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I68",
+            "lat": 53.368584,
+            "lon": -1.364196,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I69",
+            "lat": 53.301397,
+            "lon": -1.425768,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I70",
+            "lat": 53.310989,
+            "lon": -1.507369,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I71",
+            "lat": 53.319868,
+            "lon": -1.480198,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I72",
+            "lat": 53.431891,
+            "lon": -1.476095,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I73",
+            "lat": 53.365728,
+            "lon": -1.441356,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I74",
+            "lat": 53.391752,
+            "lon": -1.352553,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I75",
+            "lat": 53.400179,
+            "lon": -1.43908,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I76",
+            "lat": 53.44084,
+            "lon": -1.523142,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I77",
+            "lat": 53.433457,
+            "lon": -1.401517,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I78",
+            "lat": 53.340852,
+            "lon": -1.429034,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I79",
+            "lat": 53.33054,
+            "lon": -1.423152,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I80",
+            "lat": 53.375811,
+            "lon": -1.499776,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I81",
+            "lat": 53.313845,
+            "lon": -1.465285,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I82",
+            "lat": 53.306613,
+            "lon": -1.483289,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I83",
+            "lat": 53.395567,
+            "lon": -1.497609,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I84",
+            "lat": 53.382752,
+            "lon": -1.464463,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I85",
+            "lat": 53.316781,
+            "lon": -1.36099,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I86",
+            "lat": 53.381839,
+            "lon": -1.383081,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I87",
+            "lat": 53.364468,
+            "lon": -1.541634,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I88",
+            "lat": 53.434847,
+            "lon": -1.390776,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I89",
+            "lat": 53.434839,
+            "lon": -1.507985,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I90",
+            "lat": 53.40004,
+            "lon": -1.479264,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I91",
+            "lat": 53.446076,
+            "lon": -1.400104,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I92",
+            "lat": 53.429691,
+            "lon": -1.354759,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I93",
+            "lat": 53.432212,
+            "lon": -1.545043,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        },
+        {
+            "id": "I94",
+            "lat": 53.417358,
+            "lon": -1.467657,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I95",
+            "lat": 53.340021,
+            "lon": -1.392525,
+            "severity_level": "LOW",
+            "severity_weight": 25
+        },
+        {
+            "id": "I96",
+            "lat": 53.357381,
+            "lon": -1.542255,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I97",
+            "lat": 53.333365,
+            "lon": -1.386683,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I98",
+            "lat": 53.352449,
+            "lon": -1.385893,
+            "severity_level": "MEDIUM",
+            "severity_weight": 50
+        },
+        {
+            "id": "I99",
+            "lat": 53.333439,
+            "lon": -1.417993,
+            "severity_level": "CRITICAL",
+            "severity_weight": 100
+        },
+        {
+            "id": "I100",
+            "lat": 53.349239,
+            "lon": -1.377129,
+            "severity_level": "HIGH",
+            "severity_weight": 75
+        }
+    ],
+    "hospitals": [
+        {
+            "id": "H1",
+            "name": "Northern General Hospital",
+            "lat": 53.4096,
+            "lon": -1.4565,
+            "capacity": 1100,
+            "available_beds": 850
+        },
+        {
+            "id": "H2",
+            "name": "Royal Hallamshire Hospital",
+            "lat": 53.3782,
+            "lon": -1.4883,
+            "capacity": 900,
+            "available_beds": 680
+        },
+        {
+            "id": "H3",
+            "name": "Sheffield Children's Hospital",
+            "lat": 53.3728,
+            "lon": -1.4908,
+            "capacity": 200,
+            "available_beds": 150
+        },
+        {
+            "id": "H4",
+            "name": "Weston Park Hospital",
+            "lat": 53.3778,
+            "lon": -1.4943,
+            "capacity": 72,
+            "available_beds": 55
+        }
+    ]
+}

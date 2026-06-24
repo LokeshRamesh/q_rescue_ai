@@ -1,0 +1,8 @@
+{
+    "one_ambulance_per_incident": true,
+    "one_incident_per_ambulance": true,
+    "hospital_capacity_limit": true,
+    "critical_priority": true,
+    "max_response_time_minutes": null,
+    "constraint_penalty": 100.0
+}

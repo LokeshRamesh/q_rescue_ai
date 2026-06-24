@@ -1,0 +1,43 @@
+[simulation]
+seed = 42
+ambulances = 3
+incidents = 5
+hospitals = 2
+map_width_km = 20.0
+# Scenario type: generic | flood | industrial_accident | city_wide_emergency
+category = "flood"
+# Use real Sheffield lat/lon coordinates (true) or km-grid coords (false)
+use_sheffield_coords = true
+# 1-sigma radius (km) for disaster-zone incident clustering
+cluster_radius_km = 1.0
+
+[simulation.severity_weights]
+# Absolute priority weights used in CSV exports and documentation.
+# The QUBO solver uses Severity IntEnum (1–4) × severity_weight instead;
+# see docs/optimisation_model.md for the full mapping table.
+critical = 100
+high = 75
+medium = 50
+low = 25
+
+[optimisation]
+distance_weight = 1.0
+severity_weight = 8.0
+constraint_penalty = 100.0
+
+[export]
+# Output directory for generated CSVs and JSON files
+output_dir = "data/outputs"
+# Formats to generate on every run: always includes both json and csv
+formats = ["json", "csv"]
+
+[quantum]
+solver = "exact"
+qaoa_reps = 1
+shots = 1024
+
+[road_network]
+# Cache the Sheffield OSMnx graph to disk on first download
+cache_dir = "data/road_network_cache"
+# Average ambulance speed used for travel-time estimates (km/h)
+ambulance_speed_kmh = 50.0

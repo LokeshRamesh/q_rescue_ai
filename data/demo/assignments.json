@@ -1,0 +1,65 @@
+{
+    "scenario_id": "Sheffield Flood Response (seed=42)",
+    "assignments": [
+        {
+            "ambulance_id": "A10",
+            "incident_id": "I19",
+            "hospital_id": "H3",
+            "distance": 13.52
+        },
+        {
+            "ambulance_id": "A7",
+            "incident_id": "I7",
+            "hospital_id": "H3",
+            "distance": 7.51
+        },
+        {
+            "ambulance_id": "A9",
+            "incident_id": "I20",
+            "hospital_id": "H3",
+            "distance": 11.1
+        },
+        {
+            "ambulance_id": "A8",
+            "incident_id": "I4",
+            "hospital_id": "H4",
+            "distance": 3.44
+        },
+        {
+            "ambulance_id": "A3",
+            "incident_id": "I1",
+            "hospital_id": "H3",
+            "distance": 10.53
+        },
+        {
+            "ambulance_id": "A1",
+            "incident_id": "I6",
+            "hospital_id": "H2",
+            "distance": 11.35
+        },
+        {
+            "ambulance_id": "A2",
+            "incident_id": "I16",
+            "hospital_id": "H4",
+            "distance": 13.29
+        },
+        {
+            "ambulance_id": "A6",
+            "incident_id": "I9",
+            "hospital_id": "H2",
+            "distance": 13.18
+        },
+        {
+            "ambulance_id": "A4",
+            "incident_id": "I5",
+            "hospital_id": "H4",
+            "distance": 14.3
+        },
+        {
+            "ambulance_id": "A5",
+            "incident_id": "I2",
+            "hospital_id": "H3",
+            "distance": 7.54
+        }
+    ]
+}
